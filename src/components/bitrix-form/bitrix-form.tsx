@@ -18,9 +18,9 @@ const BitrixForm = () => {
   return (
     
   
-    <div className="w-full h-screen flex items-center justify-center bg-white">
+    <div className="w-full  flex items-center justify-center bg-white">
     <div
-      className="w-full max-w-4xl h-full overflow-y-scroll rounded-xl shadow-lg p-4 border border-gray-200"
+      className="w-full max-w-4xl h-full overflow-y-scroll rounded-xl shadow-lg py-4 border border-gray-200"
       id="bitrix-form-inner"
     >
       <div

@@ -11,8 +11,13 @@
 
 /* Custom animations */
 @keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 .animate-float {
@@ -28,10 +33,10 @@
 /* Bitrix form custom styles with your original colors */
 .b24-form-wrapper {
   width: 380px !important;
-  border: 2px solid rgba(255,255,255,0.2) !important;
+  border: 2px solid rgba(255, 255, 255, 0.2) !important;
   border-radius: 24px !important;
   backdrop-filter: blur(20px) !important;
-  background: rgba(255,255,255,0.1) !important;
+  background: rgba(255, 255, 255, 0.1) !important;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
 }
 
@@ -40,13 +45,18 @@
   border: none !important;
   color: white !important;
   font-weight: 600 !important;
-  font-size: 16px !important;}
+  font-size: 16px !important;
+}
 
-
-
-  .border03 {
+.border03 {
   height: 3px;
-  background-image: linear-gradient(90deg, transparent, transparent 50%, #fff 50%, #fff 100%),
+  background-image: linear-gradient(
+      90deg,
+      transparent,
+      transparent 50%,
+      #fff 50%,
+      #fff 100%
+    ),
     linear-gradient(90deg, #101d63, #292b8d54, #acc1f87a, #a1bee9, #ffffff);
   background-size: 16px 3px, 100% 3px;
   border: none;
