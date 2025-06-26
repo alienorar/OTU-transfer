@@ -142,15 +142,15 @@ const MBAFormWithInfo: FC = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
       </Helmet>
 
-      <div className="flex-col flex items-stretch lg:flex-row md:flex-row min-h-screen">
-        <div className="w-full lg:w-1/2 object-contain hidden lg:block transfer-hero">
+      <div className="flex-col flex items-stretch lg:flex-row md:flex-row ">
+        <div className="w-full max-w-[1000px]  object-contain hidden lg:block transfer-hero">
           <img
             src={Building || "/placeholder.svg"}
             alt="building"
-            className="object-cover w-full h-full min-h-screen"
+            className="object-cover w-full h-full "
           />
         </div>
-        <div className="w-full lg:w-1/2 p-2 lg:p-8 flex justify-center items-center min-h-screen">
+        <div className="w-full lg:w-1/2 p-2 lg:p-8 flex justify-center items-center ">
           <div className="w-full max-w-md">
             <BitrixForm />
           </div>
